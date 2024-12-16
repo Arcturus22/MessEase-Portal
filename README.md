@@ -1,26 +1,31 @@
-# Dynamic Lecture Hall Occupancy and Attendance Recorder  
+# MessEase Portal: Efficient Billing, Happy Dining
 
-A web portal designed to optimize lecture hall management by providing real-time occupancy tracking, efficient hall booking, and accurate student attendance recording. This project ensures seamless operations for professors and students through a secure and scalable system.  
+MessEase Portal is a comprehensive mess management system designed to streamline meal tracking, billing, and operations for both students and managers. The platform simplifies everyday mess activities, reduces inefficiencies, and ensures a seamless user experience through modern web technologies.  
 
 ## Features  
-- **Real-Time Occupancy Tracking:** Live updates on lecture hall availability, enabling efficient classroom management.  
-- **Lecture Hall Booking:** Professors can easily book lecture halls by filling in class details, ensuring hassle-free scheduling.  
-- **Attendance Recording:** Integrated attendance tracking using PIN verification and timestamps to prevent proxy attendance.  
-- **Live Status Updates:** Provides students with real-time updates on hall occupancy for easy navigation.  
-- **Secure Data Management:** Ensures data reliability with robust backend APIs and a secure frontend-backend integration.  
+- **Real-Time Meal Cancellation:** Students can cancel meals instantly, reducing food wastage and ensuring updated records.  
+- **Color-Coded Meal Attendance Tracking:** A visually intuitive calendar that shows meal attendance for the month, with green and red indicators for each meal.  
+- **Automated Bill Management:** Bills are updated dynamically based on meal consumption and extras ordered.  
+- **Manager Functionalities:** Managers can assign students to mess facilities, track enrolled students, and manage extras effectively.  
+- **Student Dashboard:** Provides students with a clear overview of their meal attendance, total bills, and cancellation history.  
 
 ## Hosted Link  
-Check out the live version of the project here: **[Dynamic Lecture Hall Occupancy and Attendance Recorder]([<your-hosted-link-here>](https://mess-management-sys.vercel.app/))**  
+Check out the live version of the project here: **[MessEase Portal](https://mess-management-sys.vercel.app/)**  
 
 ## Technologies Used  
-- **Frontend:** EmbeddedJS, CSS, Bootstrap  
+- **Frontend:** ReactJS, CSS, React-Bootstrap  
 - **Backend:** Node.js, Express.js  
 - **Database:** MongoDB  
 
 ## How It Works  
-1. Professors can view available lecture halls and book them by filling out class details.  
-2. Students can track hall occupancy status in real-time to navigate to their classes.  
-3. Attendance is recorded securely with PIN-based verification and timestamping, preventing proxies.  
-4. All data is synchronized in real-time to ensure up-to-date information for all users.  
+1. **Students** can log in to:  
+   - View their meal attendance in a color-coded calendar.  
+   - Cancel meals in real-time to avoid being charged for unattended meals.  
+   - Track their total bills, including charges for extras taken.  
+2. **Managers** can log in to:  
+   - Assign students to mess facilities and manage enrollments.  
+   - Update and track student details and extra orders.  
+   - Monitor system-wide operations for enhanced efficiency.  
 
-Take a look at the live project by clicking [here](https://mess-management-sys.vercel.app/) and let us know your thoughts!  
+
+Take a look at the live project [here](https://mess-management-sys.vercel.app/) and share your thoughts!  
